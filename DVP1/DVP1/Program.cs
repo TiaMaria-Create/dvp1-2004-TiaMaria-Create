@@ -1,11 +1,10 @@
 ﻿using System;
 
-// Name: First Last 
-// Date: Year and Month.
+// Name: Tykeeja Harris
+// Date: 2020 April
+// Course: Project & Portfolio 1 
 // CE Name: Coding Exercise - Main Method / Initiates Program.   
-// Synopsis: Briefly explain the purpose of this class file.
 
-// Note: Be sure to add a Header like the one above to EACH class file you create.
 
 namespace DVP1
 {
@@ -15,7 +14,11 @@ namespace DVP1
         {
             // Example External Method Call
             // For your first challenge, create a Display() method in the menu class.
-            CE1_Menu.RunExampleMethod();
+            CE1_Menu.WelcomeUser();
+
+            //Display the Menu from the first challange
+            CE1_Menu.MenuChoice();
         }
     }
 }
+
