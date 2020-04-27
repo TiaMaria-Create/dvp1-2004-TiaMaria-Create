@@ -158,9 +158,6 @@ namespace Harris_Tykeeja_Conditionals
             //The customer purchases two items
 
 
-            //cdefine the variables for the cost to using number data type 
-            decimal item1Cost;
-            decimal item2Cost;
 
             //Prompt the customer for the cost of his items
             Console.WriteLine("Hello, what is the cost of your first item?");
@@ -170,14 +167,14 @@ namespace Harris_Tykeeja_Conditionals
             Console.WriteLine("You entered $" + item1);
             
             // Make sure the user is entering valid input
-            bool itemNum = decimal.TryParse(item1, out item1Cost);
+            bool itemNum = decimal.TryParse(item1, out decimal item1Cost);
 
             while (itemNum == false)
 
             {
                 Console.WriteLine("You entered an invalid response. Please enter a number for the cost of item.");
                 item1 = Console.ReadLine();
-                itemNum = decimal.TryParse(item1, out item1Cost);
+                itemNum = decimal.TryParse(item1, out  item1Cost);
             }
 
             //Prompt the user for the cost of the second item
@@ -187,7 +184,7 @@ namespace Harris_Tykeeja_Conditionals
 
 
             // Make sure the user is entering valid input
-            bool itemNum2 = decimal.TryParse(item2, out item2Cost);
+            bool itemNum2 = decimal.TryParse(item2, out decimal item2Cost);
 
             while (itemNum2 == false)
 
