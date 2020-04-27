@@ -5,7 +5,7 @@ using System.Text;
 
 
 // Name: Tykeeja Harris
-// Date: 2020 March
+// Date: 2020 April
 // Course: Project & Portfolio 1 
 // CE Name: Coding Exercise - Main Method / Initiates Program.   
 // Synopsis: This is a string exercise that reverse the order of user entered information.

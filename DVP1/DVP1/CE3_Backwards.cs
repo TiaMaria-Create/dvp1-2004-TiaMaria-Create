@@ -17,7 +17,7 @@ namespace DVP1
         {
 
 
-            Console.WriteLine("Enter a Sentence at leasr 6 words in length.");
+            Console.WriteLine("Enter a Sentence at least 6 words in length.");
             //Getting String(word) from Console  
             string userSentence = Console.ReadLine();
 

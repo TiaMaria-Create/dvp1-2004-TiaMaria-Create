@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harris_Tykeeja_Conditionals", "Harris_Tykeeja_Conditionals\Harris_Tykeeja_Conditionals.csproj", "{DA0CD687-D4C9-43C7-B66B-3BF2E7B2C088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA0CD687-D4C9-43C7-B66B-3BF2E7B2C088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0CD687-D4C9-43C7-B66B-3BF2E7B2C088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0CD687-D4C9-43C7-B66B-3BF2E7B2C088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0CD687-D4C9-43C7-B66B-3BF2E7B2C088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
