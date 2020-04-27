@@ -27,10 +27,10 @@ The purpose of this repository is to store and monitor multiple versions of the 
  
 - [X] Repo Created: Complete.
 - [X] CE1 - Menu: Complete 
-- [ ] CE2 - Swap Name: In Progress
-- [ ] CE3 -Backwards: In Progress
-- [ ] CE4 - Age Convert In Progress
-- [ ] CE5 - Temperature Convert: In Progress
+- [X] CE2 - Swap Name: In Progress
+- [X] CE3 -Backwards: In Progress
+- [X] CE4 - Age Convert In Progress
+- [X] CE5 - Temperature Convert: In Progress
 - [ ] CE5 - Big Blue Fish: In Progress
 - [ ] CE7 - Validation: In Progress
 
@@ -50,12 +50,16 @@ R2 - Developing a Solution - *Complete*
 The SDI folder contains...
 
 ```
-tbd
+Conditionals Assignment
+Grocery Calculator
+Functions Assignment
+Custom Class Assignment
 
 currently refactoring...
 
 
-tbd
+Conditionals Assignment
+Custom Class Assignment
 ```
 
 
