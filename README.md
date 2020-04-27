@@ -27,10 +27,10 @@ The purpose of this repository is to store and monitor multiple versions of the 
  
 - [X] Repo Created: Complete.
 - [X] CE1 - Menu: Complete 
-- [X] CE2 - Swap Name: In Progress
-- [X] CE3 -Backwards: In Progress
-- [X] CE4 - Age Convert In Progress
-- [X] CE5 - Temperature Convert: In Progress
+- [X] CE2 - Swap Name: Complete
+- [X] CE3 -Backwards: Complete
+- [X] CE4 - Age Convert Complete
+- [X] CE5 - Temperature Convert: Complete
 - [ ] CE5 - Big Blue Fish: In Progress
 - [ ] CE7 - Validation: In Progress
 
