@@ -24,8 +24,20 @@ namespace DVP1
             //define a variable to be used to count the number of words the use enters
             int wordCount = 0;
 
+            //Count the words the user has entered
+            for (int i = 0; i < userSentence.Length - 1; i++)
+
+            {
+                //Counts all the spaces present in the string  and does not include first space
+                //researched IsLetter using stackoverflow 
+                if (userSentence[i] == ' ' && Char.IsLetter(userSentence[i + 1]) && (i > 0))
+                {
+                    wordCount++;
+                }
+            }
+
             //Verify the user has entered valid input
-            while (string.IsNullOrWhiteSpace(userSentence) || (wordCount < 6))
+            while (string.IsNullOrWhiteSpace(userSentence) || (wordCount <= 6))
 
             {
                 //Tell the user what is wrong
@@ -44,6 +56,8 @@ namespace DVP1
                         wordCount++;
                     }
                 }
+
+
             }
 
             //count the last word in the string, by adding 1  
