@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-// Name: Tykeeja Harris
+// Name: Tykeeja Harris  
 // Date: 2020 April
 // Course: Project & Portfolio 1 
 // CE Name: Coding Exercise - Main Method / Initiates Program.   
@@ -15,7 +15,12 @@ namespace DVP1
         // Remember Public, Static methods are available to the entire solution.
         public static void BigBlueFish()
         {
-            Console.WriteLine("This message is a place holder to Blue Fish program.");
+
+            //declare and define an array for color
+            Console.WriteLine("Welcome to BigBlueFish.");
+            Console.WriteLine("Looking for the biggest fish matching a certain color?");
+            Console.WriteLine(" Please select a color of fish");
+
         }
     }
 }

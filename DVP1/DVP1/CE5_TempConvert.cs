@@ -16,7 +16,6 @@ namespace DVP1
     public class CE5_TempConvert
     {
         // Remember Public, Static methods are available to the entire solution.
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Potential Code Quality Issues", "RECS0155:Finds issues with format strings", Justification = "<Pending>")]
         public static void TempConvert()
         {
             //Welcome the user to the program and introduce the program options
