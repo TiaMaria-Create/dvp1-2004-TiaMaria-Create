@@ -20,34 +20,35 @@ namespace DVP1
             //Welcome the user to the program
             Console.WriteLine("Welcome to a game of SwapName!");
             //Prompt the user for their first and last name
-            Console.WriteLine("To get started, what is your first name?");
+            //Console.WriteLine("To get started, what is your first name?");
             string userInputFirst = Console.ReadLine().Trim();
+            //Make sure the user is entering a valid selection
+           userInputFirst = Validation.ValidateUserInput("Please enter your first name...");
+            Console.WriteLine($"Thanks! You entered [0]", userInputFirst);
 
+            //#####################################################################
+            //use validation class to validate
+            //while (string.IsNullOrEmpty(userInputFirst))
 
-            while (string.IsNullOrEmpty(userInputFirst))
-
-            {
-                Console.WriteLine("Nothing was entered, Can you try again?");
-                userInputFirst = Console.ReadLine();
-
-
-            }
-
-
-            Console.WriteLine("Thank you {0}, What is your last name?", userInputFirst);
+            //{
+            //    Console.WriteLine("Nothing was entered, Can you try again?");
+            //    userInputFirst = Console.ReadLine();
+            //}
+            //#####################################################################
+            Console.WriteLine("Thank you {0}. Please press enter to continue.", userInputFirst);
             string userInputLast = Console.ReadLine().Trim();
+            userInputLast = Validation.ValidateUserInput("What is your last name?");
 
+            //#####################################################################
+            //use validation class to validate
+            //while (string.IsNullOrEmpty(userInputLast))
 
-            while (string.IsNullOrEmpty(userInputLast))
+            //{
+            //    Console.WriteLine("Hey you didn't enter anything, can you try again?");
+            //    userInputLast = Console.ReadLine();
 
-            {
-                Console.WriteLine("Hey you didn't enter anything, can you try again?");
-                userInputLast = Console.ReadLine();
-
-            }
-
-
-
+            //}
+            //#####################################################################
 
             //Create a string variable that will push and retrieve the paramenters from the reverse method
             string reversedName = ReverseName(userInputFirst, userInputLast);
@@ -56,8 +57,10 @@ namespace DVP1
 
             Console.WriteLine("Excellent {0} {1}! Now if reversed your name would be {2}.", userInputFirst, userInputLast, reversedName);
 
-            Console.WriteLine("Press enter to continue...");
-            Console.ReadLine();
+
+            Console.WriteLine("======================================================");
+            Console.WriteLine("Press Enter to go back to the main Menu.");
+            Console.ReadKey();
 
         }
 

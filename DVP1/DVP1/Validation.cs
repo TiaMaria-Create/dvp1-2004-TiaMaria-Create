@@ -16,5 +16,31 @@ namespace DVP1
         public Validation()
         {
         }
+
+        // String Required
+        public static string ValidateUserInput(string message)
+        {
+
+            Console.Write(message);
+            string UserResponse = Console.ReadLine();
+
+            while (string.IsNullOrEmpty(UserResponse))
+
+            {
+                Console.WriteLine("Nothing was entered, Can you try again?");
+                UserResponse = Console.ReadLine();
+
+
+            }
+
+            while (string.IsNullOrWhiteSpace(UserResponse))
+            {
+                Console.Write("\r\nPlease do not leave this empty. Try again: ");
+                UserResponse = Console.ReadLine();
+            }
+            return UserResponse;
+        }
+
+        //Validate that string is a number
     }
 }

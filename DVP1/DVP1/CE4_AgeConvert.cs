@@ -4,9 +4,7 @@
 // Name: Tykeeja Harris
 // Date: 2020 April
 // Course: Project & Portfolio 1 
-// CE Name: Coding Exercise - Main Method / Initiates Program.   
-// Synopsis: Provides a means for the user to select and run any of the other completed coding challenges.
-// As we complete each challenge, this will offer a way for the user to run it. 
+// CE Name: Coding Exercise - Age Conversion
 
 namespace DVP1
 {
@@ -60,6 +58,16 @@ namespace DVP1
             //Tell the user their age
             Console.WriteLine("{0} you entered you are {1} years old.", userName, userAge);
             Console.WriteLine("At your next social gathering you can tell your friends that you are {0:N} days old, or {1:N} hours old. \r\nYou can also say you are {2:N} minutes old, or you can say you are {3:N} seconds old. Wow! Talk about a party trick.", days, hours, minutes, seconds);
+
+
+            Console.WriteLine("======================================================");
+            Console.WriteLine("Press Enter to go back to the main Menu.");
+            Console.ReadKey();
+
+
+
+
         }
+
     }
 }

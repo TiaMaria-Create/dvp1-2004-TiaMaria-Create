@@ -4,9 +4,7 @@
 // Name: Tykeeja Harris
 // Date: 2020 April
 // Course: Project & Portfolio 1 
-// CE Name: Coding Exercise - Main Method / Initiates Program.   
-// Synopsis: Provides a means for the user to select and run any of the other completed coding challenges.
-// As we complete each challenge, this will offer a way for the user to run it.
+// CE Name: Coding Exercise -Temperature Conversion
 
 
 
@@ -103,7 +101,13 @@ namespace DVP1
                     break;
             }
 
-            }
+
+            Console.WriteLine("======================================================");
+            Console.WriteLine("Press Enter to go back to the main Menu.");
+            Console.ReadKey();
+
+
+        }
 
         //Create a method that will convert Farenheit to Celsius
         public static double FarenheitConversion(double fahrenheit)
@@ -119,9 +123,19 @@ namespace DVP1
         {
             double celsiusToFahrenheitConversion = (celsius * 9) / 5 + 32;
             return celsiusToFahrenheitConversion;
+
+
         }
+
+        
+   
+
     }
+
+
 }
+
+
 
 
 //Test Equations

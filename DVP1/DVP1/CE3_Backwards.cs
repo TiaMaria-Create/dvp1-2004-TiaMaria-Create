@@ -4,9 +4,7 @@
 // Name: Tykeeja Harris
 // Date: 2020 April
 // Course: Project & Portfolio 1 
-// CE Name: Coding Exercise - Main Method / Initiates Program.   
-// Synopsis: Provides a means for the user to select and run any of the other completed coding challenges.
-// As we complete each challenge, this will offer a way for the user to run it. 
+// CE Name: Coding Exercise - Reverse Name
 
 namespace DVP1
 {
@@ -25,7 +23,7 @@ namespace DVP1
             int wordCount = 0;
 
             //Count the words the user has entered
-            for (int i = 0; i < userSentence.Length - 1; i++)
+            for (int i = 0; i < userSentence.Length ; i++)
 
             {
                 //Counts all the spaces present in the string  and does not include first space
@@ -34,10 +32,13 @@ namespace DVP1
                 {
                     wordCount++;
                 }
+
             }
 
+            Console.WriteLine("Your total is {0}", wordCount++);
+
             //Verify the user has entered valid input
-            while (string.IsNullOrWhiteSpace(userSentence) || (wordCount <= 6))
+            while (string.IsNullOrWhiteSpace(userSentence) || (wordCount < 6))
 
             {
                 //Tell the user what is wrong
@@ -80,10 +81,15 @@ namespace DVP1
             }
             //Displaying the reverse word  
             Console.WriteLine("\r\nReversed your sentence is: \r\n{0}", reverse);
-            Console.ReadLine();
+
+
+            Console.WriteLine("======================================================");
+            Console.WriteLine("Press Enter to go back to the main Menu.");
+            Console.ReadKey();
         }
 
 
+ 
 
     }
 
