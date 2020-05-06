@@ -153,24 +153,20 @@ namespace DVP1
             float fishLength = 0;
 
             {
-                for (int j1 = 0; j1 < secondArray.Length; ++j1)
+                for (int i = 0; i < secondArray.Length; ++i)
                 {
-                    if (secondArray[j1] == "yellow")
+                    if (secondArray[i] == "yellow")
                     {
-                        if (firstArray[j1] > fishLength)
+                        if (firstArray[i] > fishLength)
                         {
-                            fishLength = firstArray[j1];
-                            fishColor = secondArray[j1];
+                            fishLength = firstArray[i];
+                            fishColor = secondArray[i];
                         }
                     }
                 }
             }
 
             Console.WriteLine(String.Format("The biggest {0} fish is {1} inches", fishColor, fishLength));
-
-
-    
-
 
         }
 
@@ -185,23 +181,20 @@ namespace DVP1
 
             // foreach (var userFish in secondArray)
             {
-                for (int j1 = 0; j1 < secondArray.Length; ++j1)
+                for (int j = 0; j < secondArray.Length; ++j)
                 {
-                    if (secondArray[j1] == "purple")
+                    if (secondArray[j] == "purple")
                     {
-                        if (firstArray[j1] > fishLength)
+                        if (firstArray[j] > fishLength)
                         {
-                            fishLength = firstArray[j1];
-                            fishColor = secondArray[j1];
+                            fishLength = firstArray[j];
+                            fishColor = secondArray[j];
                         }
                     }
                 }
             }
 
-            Console.WriteLine(String.Format("The biggest {0} fish is {1} inches", fishColor, fishLength));
-
-
-
+            Console.WriteLine(String.Format("The biggest {0} fish is {1} inches", fishColor, fishLength)); 
 
             Console.WriteLine("======================================================");
             Console.WriteLine("Press Enter to go back to the main Menu.");
